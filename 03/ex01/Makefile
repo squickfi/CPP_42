@@ -1,15 +1,14 @@
-NAME		= fixed
+NAME		= scavTrap
 
-SRCS		= Fixed.cpp\
-				Point.cpp\
-				bsp.cpp\
+SRCS		= ClapTrap.cpp\
+				ScavTrap.cpp\
 				main.cpp
 OBJS		= $(SRCS:.cpp=.o)
 DEP 		= $(OBJS:.o=.d)
 
 CXX			= c++
 RM			= rm -f
-CXXFLAGS	= -I. -MMD -Wall -Wextra -Werror -std=c++98
+CXXFLAGS	= -Wall -Wextra -Werror -I. -MMD -std=c++98
 
 all:		$(NAME)
 

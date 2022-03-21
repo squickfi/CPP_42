@@ -1,0 +1,37 @@
+#pragma once
+
+#include <iostream>
+
+class ClapTrap {
+
+	protected:
+
+		std::string name;
+		int hitPoints;
+		int energyPoints;
+		int attackDamage;
+		ClapTrap(std::string name, int hp, int ep, int dmg);
+		void setName(std::string name);
+		void setHitPoints(int value);
+		void setEnergyPoints(int value);
+		void setAttackDamage(int value);
+
+	public:
+	
+		ClapTrap();
+		ClapTrap(std::string name);
+		~ClapTrap();
+		ClapTrap(const ClapTrap &other);
+
+		ClapTrap &operator = (const ClapTrap &other);
+
+		virtual void attack(const std::string target);
+		void takeDamage(unsigned int amount);
+		void beRapaired(unsigned int amount);
+
+		std::string getName() const;
+		int getHitPoints() const;
+		int getEnergyPoints() const;
+		int getAttackDamage() const;
+
+};

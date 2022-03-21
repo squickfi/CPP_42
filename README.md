@@ -12,3 +12,5 @@ Introduction to C++ of School 42. It consists of 9 "days", each has small tasks 
 - **Day02**
 	- orthodox canonical form
 	- operator overloading
+- **Day03**
+	- Inheritance
