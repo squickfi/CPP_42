@@ -18,3 +18,5 @@ Introduction to C++ of School 42. It consists of 9 "days", each has small tasks 
 	- polymorphism
 	- abstract classes
 	- interfaces
+- **Day05**
+	- exceptions
