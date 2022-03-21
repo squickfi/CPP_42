@@ -20,3 +20,5 @@ Introduction to C++ of School 42. It consists of 9 "days", each has small tasks 
 	- interfaces
 - **Day05**
 	- exceptions
+- **Day06**
+	- casts
