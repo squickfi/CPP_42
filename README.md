@@ -14,3 +14,7 @@ Introduction to C++ of School 42. It consists of 9 "days", each has small tasks 
 	- operator overloading
 - **Day03**
 	- Inheritance
+- **Day04**
+	- polymorphism
+	- abstract classes
+	- interfaces
