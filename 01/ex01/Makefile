@@ -1,7 +1,7 @@
-NAME		= PhoneBook
+NAME		= zombie
 
-SRCS		= Contact_class.cpp\
-				PhoneBook_class.cpp\
+SRCS		= Zombie.cpp\
+				ZombieHorde.cpp\
 				main.cpp
 OBJS		= $(SRCS:.cpp=.o)
 DEP 		= $(OBJS:.o=.d)

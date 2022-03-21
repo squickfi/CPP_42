@@ -1,8 +1,6 @@
-NAME		= PhoneBook
+NAME		= brain
 
-SRCS		= Contact_class.cpp\
-				PhoneBook_class.cpp\
-				main.cpp
+SRCS		= main.cpp
 OBJS		= $(SRCS:.cpp=.o)
 DEP 		= $(OBJS:.o=.d)
 
@@ -24,5 +22,3 @@ fclean: clean
 re:	fclean all
 
 .PHONY:	all clean fclean re
-
-include $(wildcard $(DEP))

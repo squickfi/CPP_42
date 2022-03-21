@@ -1,7 +1,8 @@
-NAME		= PhoneBook
+NAME		= violence
 
-SRCS		= Contact_class.cpp\
-				PhoneBook_class.cpp\
+SRCS		= HumanA.cpp\
+				HumanB.cpp\
+				Weapon.cpp\
 				main.cpp
 OBJS		= $(SRCS:.cpp=.o)
 DEP 		= $(OBJS:.o=.d)

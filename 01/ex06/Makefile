@@ -1,7 +1,6 @@
-NAME		= PhoneBook
+NAME		= karenFilter
 
-SRCS		= Contact_class.cpp\
-				PhoneBook_class.cpp\
+SRCS		= Karen.cpp\
 				main.cpp
 OBJS		= $(SRCS:.cpp=.o)
 DEP 		= $(OBJS:.o=.d)

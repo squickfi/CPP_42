@@ -1,8 +1,6 @@
-NAME		= PhoneBook
+NAME		= sed
 
-SRCS		= Contact_class.cpp\
-				PhoneBook_class.cpp\
-				main.cpp
+SRCS		= main.cpp
 OBJS		= $(SRCS:.cpp=.o)
 DEP 		= $(OBJS:.o=.d)
 

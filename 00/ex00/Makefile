@@ -4,7 +4,7 @@ DEP 		= $(OBJS:.o=.d)
 
 CXX			= c++
 RM			= rm -f
-CXXFLAGS	= -Wall -Wextra -Werror -I. -MMD
+CXXFLAGS	= -Wall -Wextra -Werror -I. -MMD -std=c++98
 
 NAME		= megaphone
 
