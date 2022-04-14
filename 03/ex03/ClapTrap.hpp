@@ -20,8 +20,8 @@ class ClapTrap {
 	
 		ClapTrap();
 		ClapTrap(std::string name);
-		~ClapTrap();
 		ClapTrap(const ClapTrap &other);
+		virtual ~ClapTrap();
 
 		ClapTrap &operator = (const ClapTrap &other);
 

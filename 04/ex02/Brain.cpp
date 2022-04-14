@@ -34,14 +34,14 @@ Brain::~Brain() {
 
 std::string Brain::getIdea(int num) const {
 
-	if (num > 99)
-		return (NULL);
+	if (num < 0 || num > 99)
+		throw std::out_of_range("Wrong index in getIdea");
 	return (ideas[num]);
 }
 
 void Brain::setIdea(int num, std::string idea) {
 
-	if (num > 99)
-		return ;
+	if (num < 0 || num > 99)
+		throw std::out_of_range("Wrong index in getIdea");
 	ideas[num] = idea;
 }

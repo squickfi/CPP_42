@@ -13,3 +13,8 @@ void Zombie::announce(void) {
 
 	std::cout << name << ": BraiiiiiiinnnzzzZ...\n";
 }
+
+void Zombie::setName(std::string name) {
+
+	this->name = name;
+}
