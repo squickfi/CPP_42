@@ -98,6 +98,10 @@ bool Convert::convertStr(char *str) {
 
 	resetValues();
 	currentType = parseStr(str);
+	if (currentType == _char) {
+		Value = static_cast<int>(*str);
+		return true;
+	}
 	Value = atof(str);
 	return (true);
 }
